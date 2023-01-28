@@ -607,8 +607,9 @@ hr {
 }
 
 .navbar-brand {
-  position: relative;
+  position: absolute;
   padding: 0px;
+  left: 4rem;
 }
 
 .top-nav-collapse {
