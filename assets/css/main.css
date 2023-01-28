@@ -862,6 +862,7 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 650px;
+  /* height: 860px; */
   position: relative;
   overflow: hidden;
   padding: 180px 0 80px;
