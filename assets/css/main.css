@@ -905,7 +905,7 @@ hr {
 }
 
 .testimonial-item {
-  background: #fff;
+  /* background: #fff; */
   border-radius: 4px;
   text-align: center;
   padding: 30px 20px;

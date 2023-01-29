@@ -289,7 +289,8 @@ function addNewInput() {
           <option value="A">A</option>
           <option value="B+">B+</option>
           <option value="B">B</option>
-          <option value="C">C</option>
+          <option value="C+">C+</option>
+          <option value="F">F</option>
           </select>
       </div>
     `;
@@ -327,6 +328,9 @@ function gradeToPoints(grade) {
       break;
     case "C+":
       return 5;
+      break;
+      case "F":
+      return 0;
       break;
     default:
       return undefined;
