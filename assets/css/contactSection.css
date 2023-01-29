@@ -10,7 +10,7 @@
   box-shadow: 0 0 10px #f7b801 !important;
 }
 .contactSection {
-  background-image: url("/assets/img/one-yellow.png");
+  background-image: url("assets/img/one-yellow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
