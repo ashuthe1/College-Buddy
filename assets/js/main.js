@@ -1,36 +1,3 @@
-// let teamsContainer = document.getElementById('testimonials');
-// let teamCard = "";
-
-// fetch("assets/js/team.json")
-// .then(response => response.json())
-// .then(teams => {
-//     // console.log(teams);
-
-//     teams.forEach(team => {
-//         teamCard += `
-//         <div class="item">
-//                 <div class="testimonial-item">
-//                   <div class="img-thumb">
-//                     <img src="./assets/img/team/${team.name}.png" alt="">
-//                   </div>
-//                   <div class="info">
-//                     <h2><a href="#">${team.name}</a></h2>
-//                     <h3><a href="#">${team.tag}</a></h3>
-//                   </div>
-
-//                   <div class="media-icons">
-//                     <a href="${team.socials.github}" target="_blank"><i class="fab fa-github"></i></a>
-//                     <a href="${team.socials.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a>
-//                 </div>
-                  
-//                 </div>
-//               </div>`
-//     });
-//     teamsContainer.innerHTML = teamCard;
-// });
-
-
-
 (function($) {
   
   "use strict";  
