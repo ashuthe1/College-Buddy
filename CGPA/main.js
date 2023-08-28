@@ -58,6 +58,7 @@ function gpaResult() {
     });
 
     // Output is stored as sumGPA
+    //i -> index, r -> total,  a -> gradeAlloted 
     let sumGPA = arrGrade.reduce((r, a, i) => {
       return r + a * arrCredit[i];
     }, 0);
